@@ -5,18 +5,21 @@
     <title>This is a Test Electron App!</title>
   </head>
   <body>
-    <h1>Test Electron App for JIBO!</h1>
+    <h1>Test Electron App for Jibo!</h1>
     We are using node <script>document.write(process.versions.node)</script>,
     Chrome <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
-    <!-- //Objectives
-    // Using whatever test framework you like...
+    <!-- //Instructions:
     //
-    // For info about testing Electron apps see https://github.com/atom/electron/blob/master/docs/tutorial/using-selenium-and-webdriver.md
+    // Using whatever test framework you like...
     //
     // Create a test that clicks first one button then the other and checks to make sure
     // that what is in the box is a valid number.
-    // If it's not a valid number, then the test has failed. -->
+    // If it's not a valid number, then the test has failed.
+    //
+    // For info about testing Electron apps see https://github.com/atom/electron/blob/master/docs/tutorial/using-selenium-and-webdriver.md
+    //
+    -->
 
     <input type="button" id='ButtonA' value="ButtonA" onclick="return changeToRandomNumber(document.getElementById('sampleTextBox'));" />
     <input type="button" id='ButtonB' value="ButtonB" onclick="return changeToHello(document.getElementById('sampleTextBox'));" />

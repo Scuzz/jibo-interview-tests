@@ -1,22 +1,16 @@
-# electron-tests
+# electron-tests-skills
 
 ## Installation and setup
 
 ```
 npm install
-npm install mocha -g
-./tests/chromedriver --url-base=/wd/hub
+electron .
 ```
 
 
-## To run webdriverio test
+## To run automated tests
+(assuming tests are implemented in tests/yourTestCode.js)
 
 ```
 npm test
-```
-
-## To run selenium-driver with mocha test
-
-```
-mocha tests/sampleMochaTest.js
 ```
