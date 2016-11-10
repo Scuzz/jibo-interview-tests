@@ -15,8 +15,6 @@
     "electron": "^1.4.4",
     "electron-prebuilt": "^0.36.12",
     "mocha": "^3.1.2",
-    "selenium-webdriver": "^2.48.2",
-    "spectron": "^3.4.0",
-    "webdriverio": "^3.10.8"
+    "selenium-webdriver": "^2.48.2"
   }
 }
